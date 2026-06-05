@@ -41,6 +41,7 @@ Consultar historial de asistencias y stock mínimo con alertas.
 https://www.figma.com/design/HbDLsjrG3iVDceRRa4rj2f/mi-proyecto-senati?node-id=0-1&p=f&t=bJnc4zzqmT0e6EGc-0
 
 ## BASE DE DATOS 
+```sql
 create database senai_asistencia;
 use senai_asistencia;
 
