@@ -37,3 +37,47 @@ Controlar inventario con descuento automático de insumos al registrar una repar
 
 Consultar historial de asistencias y stock mínimo con alertas.
 
+## TRELLO
+https://www.figma.com/design/HbDLsjrG3iVDceRRa4rj2f/mi-proyecto-senati?node-id=0-1&p=f&t=bJnc4zzqmT0e6EGc-0
+
+## BASE DE DATOS 
+create database senai_asistencia;
+use senai_asistencia;
+
+
+create table cargo (
+id_cargo int auto_increment primary key,
+nombre_cargo varchar(50) not null
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+create table empleado(
+id_empleado int primary key auto_increment,
+nombre varchar(100) not null,
+apellido varchar(100) not null,
+dni varchar(8) unique not null,
+celular varchar(20),
+correo varchar (100) not null unique,
+id_cargo int not null,
+fecha_registro timestamp default current_timestamp,
+foreign key (id_cargo) references cargo(id_cargo)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+create table usuario(
+id_usuario int auto_increment primary key,
+roles enum('admin', 'superadmin') default 'admin',
+nombre_usuario varchar (150) not null,
+clave varchar(250) not null
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+create table asistencia(
+id_asistencia int auto_increment primary key,
+fecha date not null,
+hora_entrada timestamp default current_timestamp not null,
+hora_salida timestamp default current_timestamp not null,
+estado enum('asistio', 'tardanza', 'falto') default 'falto' not null,
+id_empleado int not null,
+foreign key (id_empleado) references empleado(id_empleado) ON DELETE CASCADE
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+
