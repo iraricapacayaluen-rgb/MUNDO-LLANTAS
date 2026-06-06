@@ -93,5 +93,18 @@ foreign key (id_empleado) references empleado(id_empleado) ON DELETE CASCADE
 ![MODELO_RELACIONAL](https://raw.githubusercontent.com/ojitoslanda/testing/refs/heads/master/img/db.png)
 
 
+## cardinalidades 
+usuario → trabajo (1:N)
+Un usuario (el super admin ) puede registrar y editar muchos trabajos.
+Cada trabajo es registrado o editado por un solo usuario
+```
+usuario (1) -----< trabajo (N)
+```
+##Tabla	Rol
+usuario	La persona que usa el sistema (tú)
+trabajo	Los servicios del taller (reparación, parche, alineamiento)
+
+
+
 
 
