@@ -45,7 +45,8 @@ https://trello.com/b/XggL294J/mundo-llantas
 https://www.figma.com/design/HbDLsjrG3iVDceRRa4rj2f/mi-proyecto-senati?node-id=0-1&p=f&t=bJnc4zzqmT0e6EGc-0
 
 ## logo de la empresa 
-c1fd908606027b511e6eb44b219ef23c74bcd436
+<img width="720" height="1107" alt="WhatsApp Image 2026-05-06 at 2 24 29 PM" src="https://github.com/user-attachments/assets/39dd9f6c-939a-49b3-9578-645a894d91da" />
+
 
 
 ## BASE DE DATOS 
