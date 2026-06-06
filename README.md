@@ -88,6 +88,10 @@ estado enum('asistio', 'tardanza', 'falto') default 'falto' not null,
 id_empleado int not null,
 foreign key (id_empleado) references empleado(id_empleado) ON DELETE CASCADE
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+```
+## MODELO RELACIONAL DE (MR)
+![MODELO_RELACIONAL](https://raw.githubusercontent.com/ojitoslanda/testing/refs/heads/master/img/db.png)
+
 
 
 
