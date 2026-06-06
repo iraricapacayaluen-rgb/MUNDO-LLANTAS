@@ -47,6 +47,14 @@ https://www.figma.com/design/HbDLsjrG3iVDceRRa4rj2f/mi-proyecto-senati?node-id=0
 ## logo de la empresa 
 <img width="720" height="1107" alt="WhatsApp Image 2026-05-06 at 2 24 29 PM" src="https://github.com/user-attachments/assets/39dd9f6c-939a-49b3-9578-645a894d91da" />
 
+## empresa 
+<img width="1500" height="1500" alt="WhatsApp Image 2026-06-06 at 1 10 29 AM (1)" src="https://github.com/user-attachments/assets/87c58509-8991-49e0-bdef-5cd1e30f3811" />
+
+## 2
+<img width="1500" height="1500" alt="WhatsApp Image 2026-06-06 at 1 10 29 AM" src="https://github.com/user-attachments/assets/17fb6444-138f-444c-8538-e32378005091" />
+
+
+
 
 
 ## BASE DE DATOS 
